@@ -6,7 +6,6 @@
     padding: 0;
 }
 
-
 /* main */
 
 main{
@@ -37,15 +36,11 @@ main{
     width: 250px;
     height: 350px;
     display: inline-block;
-    position: relative; 
-    cursor: pointer;   
+    position: relative;    
 }
 
 
-.ts-levis{
-    background-image: url(../img/1.webp);
-    background-size:cover;
-}
+
 .ts-levis:hover{
     background-image: url(../img/1b.webp);
     background-size: cover;
