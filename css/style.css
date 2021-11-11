@@ -31,22 +31,36 @@ main{
     width: 250px;
     height: 350px;
     display: inline-block;
-    position: relative;
-    
+    position: relative;    
 }
+
+
 .ts-levis{
     background-image: url(../img/1.webp);
     background-size:cover;
 }
+.ts-levis:hover{
+    background-image: url(../img/1b.webp);
+    background-size: cover;
+}
 .ts-guess{
+    background-image: url(../img/2.webp);
+    background-size: cover;
+}
+.ts-guess:hover{
     background-image: url(../img/2b.webp);
     background-size: cover;
 }
 
 .green-dress{
-    background-image:url(../img/3b.webp);
+    background-image:url(../img/3.webp);
     background-size:cover
 }
+.green-dress:hover{
+    background-image: url(../img/3b.webp);
+
+}
+
 
 
 /* specs */
