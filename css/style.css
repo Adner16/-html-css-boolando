@@ -4,7 +4,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: ;
 }
 
 /* main */
@@ -14,7 +13,7 @@ main{
 }
 
 .container{
-    height: 1000px;
+    height: 2000px;
     width: 758px;
     background-color: white;
     margin: 0 auto;
@@ -24,6 +23,9 @@ main{
 
 /* first row */
 
+.row{
+    margin-bottom: 80px;
+}
 
 .item{
     width: 250px;
@@ -54,7 +56,28 @@ main{
     bottom: -60px;
 }
 
-
+.brand{
+    font-size: 10px;
+    font-family: sans-serif;
+    color: grey;
+    margin-bottom: 0px;;
+}
+.model{
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-top: 0px;
+}
+.price{
+    font-family: sans-serif;
+    font-size: 12px;
+    color:red
+}
+.last-price{
+    font-family: sans-serif;
+    font-size:12px;
+    color: grey;
+    text-decoration:line-through
+}
 
 /* icons */
 
