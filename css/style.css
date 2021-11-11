@@ -1,0 +1,35 @@
+
+
+/* general */
+
+*{
+    margin: 0;
+    padding 0;
+    box-sizing: border-box;
+}
+
+/* main */
+
+.container{
+    height: 2000px;
+    width: 1080px;
+    background-color: red;
+    margin: 0 auto;
+
+    margin-top: 30px; 
+    non funziona 
+
+}
+.row{
+    background-color: red;
+    width: 1080;
+    height: 2000;
+    margin: 30px;
+    non funziona
+}
+.item{
+    width: 360;
+    height: 925;
+    background-color: red;
+    non funziona
+}
