@@ -9,11 +9,16 @@
 /* main */
 
 main{
+    height: 1100px;
+    width: 100%;
     background-color: lightgrey;
 }
 
+
 .container{
-    height: 2000px;
+    position: relative;
+    top: 50px;
+    height: 850px;
     width: 758px;
     background-color: white;
     margin: 0 auto;
@@ -59,6 +64,30 @@ main{
 .green-dress:hover{
     background-image: url(../img/3b.webp);
 
+}
+.ts-white{
+    background-image: url(../img/4.webp);
+    background-size: cover;
+}
+.ts-white:hover{
+    background-image: url(../img/4b.webp);
+    background-size: cover;
+}
+.dress{
+    background-image: url(../img/5.webp);
+    background-size: cover;
+}
+.dress:hover{
+    background-image: url(../img/5b.webp);
+    background-size: cover;
+}
+.ts-black{
+    background-image:url(../img/6.webp);
+    background-size: cover;
+}
+.ts-black:hover{
+    background-image: url(../img/6b.webp);
+    background-size: cover;
 }
 
 
